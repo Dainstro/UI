@@ -56,7 +56,7 @@ end
 
 local function MakeStroke(parent, transparency, color, thickness)
     local s = Instance.new("UIStroke")
-    s.Transparency = transparency or 0.8
+    s.Transparency = transparency or 0.4
     s.Color = color or COLORS.Border
     s.Thickness = thickness or 1
     s.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
